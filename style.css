@@ -385,6 +385,14 @@ section .title::after{
 /* Work section title label */
 .work .title::after{ content: "what i built"; }
 
+/* Equal-height project cards: stretch (override align-items:center from shared rule) */
+.work .serv-content{
+    align-items: stretch;
+}
+.work .serv-content .card{
+    height: auto;
+}
+
 /* project "visit live site" buttons */
 .btn-project{
     font-size: 15px;
