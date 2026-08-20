@@ -33,13 +33,7 @@ $(document).ready(function(){
         $('.menu-btn i').toggleClass("active");
     });
 
-    // typing text animation script
-    var typed = new Typed(".typing", {
-        strings: ["Full-Stack Developer", "Web Developer", "React Developer", "Website Designer", "Freelancer"],
-        typeSpeed: 100,
-        backSpeed: 60,
-        loop: true
-    });
+    // typing text animation removed — hero now shows a static semicolon-separated role list
 
 
     // owl carousel script
