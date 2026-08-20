@@ -184,24 +184,29 @@ section .title::after{
     list-style: none;
     display: inline-block;
 }
+.navbar .menu{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
 .navbar .menu li a{
     display: block;
     color: #fff;
     font-size: 17px;
     font-weight: 500;
-    margin-left: 28px;
     position: relative;
-    padding-bottom: 2px;
+    padding: 6px 2px 12px;
     transition: color 0.3s ease;
 }
 .navbar .menu li a::after{
     content: "";
     position: absolute;
-    left: 0;
-    bottom: 0;
+    left: 50%;
+    bottom: 4px;
     height: 2px;
     width: 0;
     background: #fff;
+    transform: translateX(-50%);
     transition: width 0.25s ease;
 }
 .navbar .menu li a:hover::after{
@@ -383,7 +388,7 @@ section .title::after{
 /* project "visit live site" buttons */
 .btn-project{
     font-size: 15px;
-    padding: 10px 22px;
+    padding: 11px 26px;
     margin-top: auto;
 }
 
@@ -634,6 +639,7 @@ footer span a:hover{
         background: var(--ink-2);
         text-align: center;
         padding-top: 90px;
+        display: block;
         transition: all 0.3s ease;
     }
     .navbar .menu.active{
@@ -641,6 +647,7 @@ footer span a:hover{
     }
     .navbar .menu li{
         display: block;
+        margin: 0;
     }
     .navbar .menu li a{
         display: inline-block;
