@@ -451,10 +451,15 @@ section .title::after{
     transition: width 0.8s ease;
 }
 .skills-content .right .html::before{ width: 90%; }
-.skills-content .right .css::before{ width: 60%; }
-.skills-content .right .js::before{ width: 80%; }
-.skills-content .right .php::before{ width: 50%; }
+.skills-content .right .css::before{ width: 85%; }
+.skills-content .right .js::before{ width: 85%; }
+.skills-content .right .react::before{ width: 75%; }
+.skills-content .right .ts::before{ width: 70%; }
+.skills-content .right .node::before{ width: 70%; }
+.skills-content .right .php::before{ width: 60%; }
 .skills-content .right .mysql::before{ width: 70%; }
+.skills-content .right .mongo::before{ width: 65%; }
+.skills-content .right .git::before{ width: 75%; }
 
 /* ------------------------------------- */
 /* Contact section                       */
