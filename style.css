@@ -88,8 +88,8 @@ section .title{
     text-align: center;
     font-size: 38px;
     font-weight: 600;
-    margin-bottom: 60px;
-    padding-bottom: 20px;
+    margin-bottom: 78px;
+    padding-bottom: 16px;
     font-family: 'Ubuntu', sans-serif;
 }
 section .title::before{
@@ -97,21 +97,24 @@ section .title::before{
     position: absolute;
     bottom: 0;
     left: 50%;
-    width: 200px;
+    width: 72px;
     height: 3px;
     background: var(--ink);
     transform: translateX(-50%);
-    border-radius: 2px;
+    border-radius: 3px;
 }
 section .title::after{
     position: absolute;
-    bottom: -9px;
+    bottom: -26px;
     left: 50%;
-    font-size: 18px;
+    font-size: 13px;
     font-family: 'Poppins', sans-serif;
-    font-weight: 500;
+    font-weight: 600;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
     color: var(--accent);
-    padding: 0 8px;
+    background: transparent;
+    white-space: nowrap;
     transform: translateX(-50%);
 }
 
@@ -331,7 +334,7 @@ section .title::after{
     background: linear-gradient(160deg, #0b1220 0%, #0f172a 100%);
 }
 .services .title::before{ background: #475569; }
-.services .title::after{ background: var(--ink-2); }
+.services .title::after{ background: transparent; }
 .services .title{
     color: #fff;
 }
